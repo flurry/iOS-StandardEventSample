@@ -3,7 +3,7 @@ This Sample app guide walks you through the steps of logging Flurry standardized
 
 ## Introduction
 
-Like a custom event, a standard event also has a two-level structure. The highest level is the specific action, in this case the purchasing of an item. For this example, we are using the SDK standardized event name “FLURRY_EVENT_PURCHASED”.
+Like a custom event, a standard event also has a two-level structure. The highest level is the specific action, in this case the purchasing of an item. For this example, we are using the SDK standardized event name `FLURRY_EVENT_PURCHASED`.
 
 In Flurry+Event.h, Flurry iOS SDK defines 58 standardized event names, and they are categorized in advertising, gaming, content, commerce, membership, onboarding, registration, search, social, media, and privacy. 
 
