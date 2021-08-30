@@ -489,7 +489,7 @@ typedef NS_ENUM (NSUInteger, FlurryEvent) {
  */
 + (FlurryStringParam * _Nonnull) creditId;
 /*!
- * @brief return the flurry-defined key for param - currencyType
+ * @brief return the flurry-defined key for param - currencyType (ISO code)
  * @since 11.3.0
  */
 + (FlurryStringParam * _Nonnull) currencyType;
@@ -761,7 +761,7 @@ typedef NS_ENUM (NSUInteger, FlurryEvent) {
     }
  * @endcode
  *
- * @return FlurryParam object after removing the value
+ * @return FlurryParamBuilder object after removing the value
  */
 - (nonnull FlurryParamBuilder *)removeObjectForKey:(nonnull id)key;
 /*!

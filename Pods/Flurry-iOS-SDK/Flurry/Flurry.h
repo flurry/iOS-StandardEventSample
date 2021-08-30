@@ -1280,7 +1280,8 @@ typedef enum {
 /*!
  *  @brief Retrive the fetched publisher data
  *  @Since 11.3.0
- *  @return the key-value paired configuration for publisher segmentation data, nil if not yet fetched
+ *  @return the key-value paired configuration for publisher segmentation data. If not yet fetched,
+ *  will return the cached segments data.
  */
 + (nullable NSDictionary<NSString *, NSString *> *)getPublisherData;
 
