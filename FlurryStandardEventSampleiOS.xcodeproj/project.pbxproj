@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A484A0D518A35159574288E9 /* Pods_FlurryStandardEventSampleiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE348FDDE885964EC4CC54E2 /* Pods_FlurryStandardEventSampleiOS.framework */; };
+		D1A5690826B1FBDE00FE4393 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5690726B1FBDE00FE4393 /* AppDelegate.m */; };
+		D1A5690B26B1FBDE00FE4393 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5690A26B1FBDE00FE4393 /* SceneDelegate.m */; };
+		D1A5691126B1FBDE00FE4393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A5690F26B1FBDE00FE4393 /* Main.storyboard */; };
+		D1A5691326B1FBE800FE4393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A5691226B1FBE800FE4393 /* Assets.xcassets */; };
+		D1A5691626B1FBE800FE4393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A5691426B1FBE800FE4393 /* LaunchScreen.storyboard */; };
+		D1A5691926B1FBE800FE4393 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5691826B1FBE800FE4393 /* main.m */; };
+		D1A5692326B1FE2800FE4393 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5692226B1FE2800FE4393 /* MenuTableViewController.m */; };
+		D1A5692726B2141000FE4393 /* StandardEventTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5692626B2141000FE4393 /* StandardEventTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15400BB0C5ED762BF68DA4FF /* Pods-FlurryStandardEventSampleiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlurryStandardEventSampleiOS.release.xcconfig"; path = "Target Support Files/Pods-FlurryStandardEventSampleiOS/Pods-FlurryStandardEventSampleiOS.release.xcconfig"; sourceTree = "<group>"; };
+		C8B24B1B4252F0DAC58C2F83 /* Pods-FlurryStandardEventSampleiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlurryStandardEventSampleiOS.debug.xcconfig"; path = "Target Support Files/Pods-FlurryStandardEventSampleiOS/Pods-FlurryStandardEventSampleiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D1A5690326B1FBDE00FE4393 /* FlurryStandardEventSampleiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlurryStandardEventSampleiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A5690626B1FBDE00FE4393 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1A5690726B1FBDE00FE4393 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D1A5690926B1FBDE00FE4393 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D1A5690A26B1FBDE00FE4393 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D1A5691026B1FBDE00FE4393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1A5691226B1FBE800FE4393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1A5691526B1FBE800FE4393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1A5691726B1FBE800FE4393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1A5691826B1FBE800FE4393 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1A5692126B1FE2800FE4393 /* MenuTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
+		D1A5692226B1FE2800FE4393 /* MenuTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
+		D1A5692526B2141000FE4393 /* StandardEventTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StandardEventTableViewController.h; sourceTree = "<group>"; };
+		D1A5692626B2141000FE4393 /* StandardEventTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StandardEventTableViewController.m; sourceTree = "<group>"; };
+		DE348FDDE885964EC4CC54E2 /* Pods_FlurryStandardEventSampleiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlurryStandardEventSampleiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1A5690026B1FBDE00FE4393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A484A0D518A35159574288E9 /* Pods_FlurryStandardEventSampleiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		538B075E6FE07830845DCFEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8B24B1B4252F0DAC58C2F83 /* Pods-FlurryStandardEventSampleiOS.debug.xcconfig */,
+				15400BB0C5ED762BF68DA4FF /* Pods-FlurryStandardEventSampleiOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A973C3C861672526F753F000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE348FDDE885964EC4CC54E2 /* Pods_FlurryStandardEventSampleiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1A568FA26B1FBDE00FE4393 = {
+			isa = PBXGroup;
+			children = (
+				D1A5690526B1FBDE00FE4393 /* FlurryStandardEventSampleiOS */,
+				D1A5690426B1FBDE00FE4393 /* Products */,
+				538B075E6FE07830845DCFEF /* Pods */,
+				A973C3C861672526F753F000 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D1A5690426B1FBDE00FE4393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1A5690326B1FBDE00FE4393 /* FlurryStandardEventSampleiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1A5690526B1FBDE00FE4393 /* FlurryStandardEventSampleiOS */ = {
+			isa = PBXGroup;
+			children = (
+				D1A5690626B1FBDE00FE4393 /* AppDelegate.h */,
+				D1A5690726B1FBDE00FE4393 /* AppDelegate.m */,
+				D1A5690926B1FBDE00FE4393 /* SceneDelegate.h */,
+				D1A5690A26B1FBDE00FE4393 /* SceneDelegate.m */,
+				D1A5690F26B1FBDE00FE4393 /* Main.storyboard */,
+				D1A5691226B1FBE800FE4393 /* Assets.xcassets */,
+				D1A5691426B1FBE800FE4393 /* LaunchScreen.storyboard */,
+				D1A5691726B1FBE800FE4393 /* Info.plist */,
+				D1A5691826B1FBE800FE4393 /* main.m */,
+				D1A5692126B1FE2800FE4393 /* MenuTableViewController.h */,
+				D1A5692226B1FE2800FE4393 /* MenuTableViewController.m */,
+				D1A5692526B2141000FE4393 /* StandardEventTableViewController.h */,
+				D1A5692626B2141000FE4393 /* StandardEventTableViewController.m */,
+			);
+			path = FlurryStandardEventSampleiOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1A5690226B1FBDE00FE4393 /* FlurryStandardEventSampleiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1A5691C26B1FBE800FE4393 /* Build configuration list for PBXNativeTarget "FlurryStandardEventSampleiOS" */;
+			buildPhases = (
+				49AA242D144EC5E3B423F5A1 /* [CP] Check Pods Manifest.lock */,
+				D1A568FF26B1FBDE00FE4393 /* Sources */,
+				D1A5690026B1FBDE00FE4393 /* Frameworks */,
+				D1A5690126B1FBDE00FE4393 /* Resources */,
+				4DA8238CAF8A3B01D8F80B7A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlurryStandardEventSampleiOS;
+			productName = FlurryStandardEventSampleiOS;
+			productReference = D1A5690326B1FBDE00FE4393 /* FlurryStandardEventSampleiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1A568FB26B1FBDE00FE4393 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D1A5690226B1FBDE00FE4393 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = D1A568FE26B1FBDE00FE4393 /* Build configuration list for PBXProject "FlurryStandardEventSampleiOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1A568FA26B1FBDE00FE4393;
+			productRefGroup = D1A5690426B1FBDE00FE4393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1A5690226B1FBDE00FE4393 /* FlurryStandardEventSampleiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1A5690126B1FBDE00FE4393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A5691626B1FBE800FE4393 /* LaunchScreen.storyboard in Resources */,
+				D1A5691326B1FBE800FE4393 /* Assets.xcassets in Resources */,
+				D1A5691126B1FBDE00FE4393 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49AA242D144EC5E3B423F5A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlurryStandardEventSampleiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DA8238CAF8A3B01D8F80B7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlurryStandardEventSampleiOS/Pods-FlurryStandardEventSampleiOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlurryStandardEventSampleiOS/Pods-FlurryStandardEventSampleiOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlurryStandardEventSampleiOS/Pods-FlurryStandardEventSampleiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1A568FF26B1FBDE00FE4393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A5692326B1FE2800FE4393 /* MenuTableViewController.m in Sources */,
+				D1A5690826B1FBDE00FE4393 /* AppDelegate.m in Sources */,
+				D1A5691926B1FBE800FE4393 /* main.m in Sources */,
+				D1A5690B26B1FBDE00FE4393 /* SceneDelegate.m in Sources */,
+				D1A5692726B2141000FE4393 /* StandardEventTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D1A5690F26B1FBDE00FE4393 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1A5691026B1FBDE00FE4393 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1A5691426B1FBE800FE4393 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1A5691526B1FBE800FE4393 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1A5691A26B1FBE800FE4393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D1A5691B26B1FBE800FE4393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1A5691D26B1FBE800FE4393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8B24B1B4252F0DAC58C2F83 /* Pods-FlurryStandardEventSampleiOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6JSG6FHB3;
+				INFOPLIST_FILE = FlurryStandardEventSampleiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flurry.FlurryStandardEventSampleiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1A5691E26B1FBE800FE4393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15400BB0C5ED762BF68DA4FF /* Pods-FlurryStandardEventSampleiOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6JSG6FHB3;
+				INFOPLIST_FILE = FlurryStandardEventSampleiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.flurry.FlurryStandardEventSampleiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1A568FE26B1FBDE00FE4393 /* Build configuration list for PBXProject "FlurryStandardEventSampleiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A5691A26B1FBE800FE4393 /* Debug */,
+				D1A5691B26B1FBE800FE4393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1A5691C26B1FBE800FE4393 /* Build configuration list for PBXNativeTarget "FlurryStandardEventSampleiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A5691D26B1FBE800FE4393 /* Debug */,
+				D1A5691E26B1FBE800FE4393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1A568FB26B1FBDE00FE4393 /* Project object */;
+}
